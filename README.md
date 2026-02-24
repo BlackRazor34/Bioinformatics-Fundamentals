@@ -31,12 +31,20 @@ This repository serves as a growing collection of fundamental bioinformatics alg
     * **Clinical Interpretation:** Cross-references variants to identify clinically significant mutations (e.g., Pathogenic BRCA1).
 * **Tech Stack:** `Pandas`, `Matplotlib`, `Seaborn`.
 
+### 5. Probability of Mutation in DNA Sequencing (Statistical Modeling) 📊🧬
+* **File:** `05_Probability_of_Mutation_in_DNA_Sequencing.ipynb`
+* **Description:** An intersection of statistics and genetics. This project models the randomness of biological systems using the **Binomial Distribution** to calculate mutation probabilities across large DNA sequences.
+    * **Case Study:** Simulates a 10,000 base-pair sequence to calculate the exact probability of observing a specific number of background mutations using the Probability Mass Function (PMF).
+    * **Disease Risk Estimation:** Utilizes the Cumulative Distribution Function (CDF) for **Anomaly Detection**, identifying when a high mutation count is statistically significant (p-value evaluation) and potentially indicative of pathogenic factors or external mutagens.
+    
+* **Tech Stack:** `SciPy`, `NumPy`, `Matplotlib`.
 ---
 
 ## 🛠️ Tools & Libraries
 * **Python:** 3.13.9
 * **Biopython:** For biological sequence manipulation.
-* **Matplotlib:** For data visualization.
+* **SciPy & NumPy:** For statistical modeling and numerical operations.
+* **Matplotlib & Seaborn:** For data visualization.
 * **VSCode Notebook:** For interactive analysis.
 
 ## 👨‍💻 Author
